@@ -21,5 +21,21 @@ header nav * {
     
 }
 main img{
-      
+      display: none;
+}
+figure{
+    display: grid;
+    align-items: center;
+  
+    margin: 0 auto;
+    background: url(../asset/one-picture.jpg)no-repeat fixed center center / cover;
+    min-height: 100vh;
+}
+figure p{
+    text-align: left;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding:2rem;
+    text-transform: uppercase;
+    width:  40%;
 }
