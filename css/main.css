@@ -1,0 +1,25 @@
+@import url(./reset.css);
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(252, 220, 0);
+    
+    
+}
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+header nav * {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    
+}
+main img{
+       display: none; 
+}
