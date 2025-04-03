@@ -43,6 +43,7 @@ figure p{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    filter: drop-shadow(0 0 0.9rem rgb(82, 14, 82));
 }
 
 #collection {
@@ -51,10 +52,11 @@ figure p{
     justify-content: center;
 }
 
+
 #collection li {
     width: 100px;
+   
 }
-
 #collection img {
     width: 100%;
     height: auto;
