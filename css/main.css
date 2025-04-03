@@ -20,9 +20,7 @@ header nav * {
     padding: 1rem 1.5rem;
     
 }
-main  img{
-/*       display: none;
- */}
+
 figure{
     display: grid;
     align-items: center;
