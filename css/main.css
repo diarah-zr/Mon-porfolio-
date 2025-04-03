@@ -26,10 +26,10 @@ main  img{
 figure{
     display: grid;
     align-items: center;
-    filter: drop-shadow(0 0 0.9rem rgb(12, 11, 12));
+    filter: drop-shadow(0 0 0.9rem rgb(82, 14, 82));
     margin: 0 auto;
     background: url(../asset/one-picture.jpg)no-repeat fixed center center / cover;
-    min-height: 50vh;
+    min-height: 40vh;
 }
 figure p{
     text-align: left;
@@ -39,13 +39,36 @@ figure p{
     text-transform: uppercase;
     width:  40%;
 }
-
-section {
-
+.primary {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
+    margin-top: 40px;
+}
 
+#collection {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#collection li {
+    width: 100px;
+}
+
+#collection img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#collection img:hover {
+    transform: scale(1.1);
+}
+section h3{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
             
