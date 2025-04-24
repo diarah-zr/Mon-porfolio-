@@ -20,9 +20,20 @@ header nav * {
     padding: 1rem 1.5rem;
     
 }
+nav ul li {
+    font-weight: bolder;
+    transition: all .6s ease-in-out;
+    text-shadow: 0 0 0.9rem #6E6E6E;
+    filter: drop-shadow(0 0 0.9rem #fff);
+    background-color: rgb(252, 220, 0);
+    color: rgb(6, 7, 5);
+    width: 20rem;
+
+}
  h3{
     font-style: oblique;
-    
+    font-family: Anton;
+
 }
 
 figure{
