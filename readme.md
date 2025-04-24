@@ -8,7 +8,6 @@ Welcome to my Portfolio!
 
 * HTML
 * CSS
-* Asset
 
 Below my site ​😉​👇​
 
