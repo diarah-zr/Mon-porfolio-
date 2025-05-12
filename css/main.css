@@ -20,10 +20,9 @@ header nav * {
     padding: 1rem 1.5rem;
     
 }
-nav ul li {
+nav ul li *{
     font-weight: bolder;
     transition: all .6s ease-in-out;
-    text-shadow: 0 0 0.9rem #6E6E6E;
     filter: drop-shadow(0 0 0.9rem #fff);
     background-color: rgb(252, 220, 0);
     color: rgb(6, 7, 5);
@@ -31,7 +30,19 @@ nav ul li {
     transition: transform 0.3s;
     transform: scale(1.1);
     border-radius: 10px;
+    transition: all .7s ease-in-out;
+    
+}
+nav ul li:hover a{
+    text-shadow: 0 0 0.9rem #6E6E6E;
+    filter: drop-shadow(.7rem .4rem  rgba(0, 0, 0, 0.181));
+    background-color: var(--bgcolor_green);
+    color: var(--bgcolor_pink);
+    
+}
 
+section div ul li{
+    text-align: center;
 }
  h3{
     font-style: oblique;
